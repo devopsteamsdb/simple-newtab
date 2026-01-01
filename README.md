@@ -2,6 +2,8 @@
 
 A lightweight, pixel-perfect clone of the NewTab dashboard, re-engineered to run entirely client-side without any server-side dependencies.
 
+### 🔴 [Live Demo](https://devopsteamsdb.github.io/simple-newtab/)
+
 ## 🚀 Key Features
 
 *   **100% Static**: Pure HTML, CSS, and JavaScript. No Node.js, Python, or PHP backend required.
