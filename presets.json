@@ -1026,9 +1026,9 @@
         "name": "Monitor",
         "image": "assets/monitor.png",
         "image_mode": "fill",
-        "image_size": "80",
+        "image_size": "90",
         "back_color": "#11161f",
-        "front_color": "#11161f",
+        "front_color": "#ffffff",
         "links": [
             {
                 "url": "https://home",

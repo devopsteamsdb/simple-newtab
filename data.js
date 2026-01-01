@@ -14,24 +14,23 @@ window.dashboardData = {
         }
     ],
     "systems": [
-        {
-            "name": "RabbitMQ",
-            "image": "assets/rabbitmq.png",
-            "image_mode": "fit",
-            "image_size": "90",
-            "back_color": "#f76300",
-            "front_color": "#f5f5f5",
-            "links": [
-                {
-                    "text": "RabbitMQ",
-                    "url": "https://rabbitmq.com"
-                }
-            ],
-            "pages": [
-                "default",
-                "devops",
-            ]
-        },
+    {
+        "name": "Monitor",
+        "image": "assets/monitor.png",
+        "image_mode": "fill",
+        "image_size": "90",
+        "back_color": "#11161f",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
         {
             "name": "Pagination Test",
             "image": "assets/cyberark.png",
