@@ -1,0 +1,1688 @@
+[
+    {
+        "name": "RabbitMQ",
+        "image": "assets/rabbitmq.png",
+        "image_mode": "fit",
+        "image_size": "100",
+        "back_color": "#f76300",
+        "front_color": "#f5f5f5",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "tags": [
+            "tag001"
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "VMware",
+        "image": "assets/vmware.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#717074",
+        "front_color": "#11161f",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "PostgreSQL",
+        "image": "assets/postgresql.png",
+        "image_mode": "fit",
+        "image_size": "75",
+        "back_color": "#336791",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "MongoDB",
+        "image": "assets/mongodb.png",
+        "image_mode": "fit",
+        "image_size": "70",
+        "back_color": "#00684a",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "MySQL",
+        "image": "assets/mysql.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#00618a",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Redis",
+        "image": "assets/redis.png",
+        "image_mode": "fit",
+        "image_size": "75",
+        "back_color": "#dc382d",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Elasticsearch",
+        "image": "assets/elasticsearch.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#005571",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Kubernetes",
+        "image": "assets/kubernetes.png",
+        "image_mode": "fit",
+        "image_size": "75",
+        "back_color": "#326ce5",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "OpenShift",
+        "image": "assets/openshift.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#ee0000",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Docker",
+        "image": "assets/docker.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#2496ed",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Jenkins",
+        "image": "assets/jenkins.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#d33833",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "GitLab",
+        "image": "assets/gitlab.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#fc6d26",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "GitHub",
+        "image": "assets/github.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#24292e",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "ArgoCD",
+        "image": "assets/argocd.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#ef7b4d",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Terraform",
+        "image": "assets/terraform.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#7b42bc",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "AWS",
+        "image": "assets/aws.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#232f3e",
+        "front_color": "#ff9900",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Azure",
+        "image": "assets/azure.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0078d4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Google Cloud",
+        "image": "assets/gcp.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#4285f4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "DigitalOcean",
+        "image": "assets/digitalocean.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0080ff",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Grafana",
+        "image": "assets/grafana.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#f46800",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Prometheus",
+        "image": "assets/prometheus.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#e6522c",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Splunk",
+        "image": "assets/splunk.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#72af36",
+        "front_color": "#e7ffd6",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Nginx",
+        "image": "assets/nginx.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#009639",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Apache",
+        "image": "assets/apache.svg",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#d22128",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Traefik",
+        "image": "assets/traefik.png",
+        "image_mode": "fit",
+        "image_size": "90",
+        "back_color": "#24a1c1",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "HAProxy",
+        "image": "assets/haproxy.svg",
+        "image_mode": "fit",
+        "image_size": "75",
+        "back_color": "#00a7b3",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Cisco",
+        "image": "assets/cisco.png",
+        "image_mode": "fit",
+        "image_size": "75",
+        "back_color": "#049fd9",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Check Point",
+        "image": "assets/checkpoint.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#e21c39",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "NetApp",
+        "image": "assets/netapp.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0067c5",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Palo Alto",
+        "image": "assets/paloalto.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#fa582d",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "text": "HOME",
+                "url": "https://home"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "CyberArk",
+        "image": "assets/cyberark.png",
+        "image_mode": "fit",
+        "image_size": "70",
+        "back_color": "#0074ba",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Nutanix",
+        "image": "assets/nutanix.png",
+        "image_mode": "fit",
+        "image_size": "90",
+        "back_color": "#024da1",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Cybereason",
+        "image": "assets/cybereason.png",
+        "image_mode": "fit",
+        "image_size": "100",
+        "back_color": "#7b1fa2",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Omnissa Horizon",
+        "image": "assets/omnissa.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#35b0bf",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Dell",
+        "image": "assets/dell.svg",
+        "image_mode": "fit",
+        "image_size": "70",
+        "back_color": "#007db8",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "McAfee",
+        "image": "assets/mcafee.png",
+        "image_mode": "fit",
+        "image_size": "70",
+        "back_color": "#c01818",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Trellix",
+        "image": "assets/trellix.png",
+        "image_mode": "fit",
+        "image_size": "90",
+        "back_color": "#ff6600",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Prisma Cloud",
+        "image": "assets/prismacloud.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#00c7e1",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "MinIO S3",
+        "image": "assets/minio.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#c72c48",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "DevOps",
+        "image": "assets/devops.png",
+        "image_mode": "fit",
+        "image_size": "90",
+        "back_color": "#1a3a4a",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "WordPress",
+        "image": "assets/wordpress.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#21759b",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Uptime Kuma",
+        "image": "assets/uptimekuma.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#6ad09d",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Home Assistant",
+        "image": "assets/homeassistant.png",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#03a9f4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Outlook",
+        "image": "assets/outlook.png",
+        "image_mode": "fit",
+        "image_size": "65",
+        "back_color": "#0078d4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Exchange",
+        "image": "assets/exchange.png",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#0078d4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "SharePoint",
+        "image": "assets/sharepoint.png",
+        "image_mode": "fit",
+        "image_size": "100",
+        "back_color": "#0078d4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Nexus",
+        "image": "assets/nexus.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#336699",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "ADFS",
+        "image": "assets/adfs.png",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#00a4ef",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Wiki.js",
+        "image": "assets/wikijs.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#1976d2",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Stratodesk",
+        "image": "assets/stratodesk.png",
+        "image_mode": "fit",
+        "image_size": "60",
+        "back_color": "#0a3c5a",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Azure DevOps",
+        "image": "assets/azuredevops.png",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#0078d4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Keycloak",
+        "image": "assets/keycloak.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#008bb9",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Red Hat",
+        "image": "assets/redhat.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#ee0000",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Windows",
+        "image": "assets/windows.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0178d4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Kasten",
+        "image": "assets/kasten.png",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#000000",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Veeam",
+        "image": "assets/veeam.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#00b159",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "LiveNX",
+        "image": "assets/livenx.svg",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#256be8",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "UiPath",
+        "image": "assets/uipath.png",
+        "image_mode": "fit",
+        "image_size": "85",
+        "back_color": "#ff4b20",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Swagger",
+        "image": "assets/swagger.png",
+        "image_mode": "fit",
+        "image_size": "75",
+        "back_color": "#85ea2d",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Docs",
+        "image": "assets/docs.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#4285f4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Monitor",
+        "image": "assets/monitor.png",
+        "image_mode": "fill",
+        "image_size": "80",
+        "back_color": "#11161f",
+        "front_color": "#11161f",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "ServiceNow",
+        "image": "assets/servicenow.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#293e40",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "phpIPAM",
+        "image": "assets/phpipam.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#11161f",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Tufin",
+        "image": "assets/tufin.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#231f20",
+        "front_color": "#231f20",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Cisco ISE",
+        "image": "assets/ciscoise.png",
+        "image_mode": "fit",
+        "image_size": "65",
+        "back_color": "#049fd9",
+        "front_color": "#049fd9",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Chrome",
+        "image": "assets/chrome.png",
+        "image_mode": "fit",
+        "image_size": "70",
+        "back_color": "#4285f4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "PhotonOS",
+        "image": "assets/photonos.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#00b4e0",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Ansible",
+        "image": "assets/ansible.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#1a1918",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Puppet",
+        "image": "assets/puppet.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#ffae1a",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Chef",
+        "image": "assets/chef.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#f06c2f",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Nomad",
+        "image": "assets/nomad.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#00caad",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "HashiCorp Vault",
+        "image": "assets/vault.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#000000",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Authentik",
+        "image": "assets/authentik.png",
+        "image_mode": "fit",
+        "image_size": "90",
+        "back_color": "#fd4b2d",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Wazuh",
+        "image": "assets/wazuh.png",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#3585f9",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Zabbix",
+        "image": "assets/zabbix.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#d40000",
+        "front_color": "#d40000",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Graylog",
+        "image": "assets/graylog.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#ff3633",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "VictoriaMetrics",
+        "image": "assets/victoriametrics.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#335df4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "InfluxDB",
+        "image": "assets/influxdb.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#22adf6",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Jaeger",
+        "image": "assets/jaeger.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#60d0e4",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Netdata",
+        "image": "assets/netdata.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#00ab44",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "NetBox",
+        "image": "assets/netbox.png",
+        "image_mode": "fit",
+        "image_size": "95",
+        "back_color": "#005c94",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "pfSense",
+        "image": "assets/pfsense.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#212121",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Tailscale",
+        "image": "assets/tailscale.svg",
+        "image_mode": "fit",
+        "image_size": "70",
+        "back_color": "#000000",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Apache Kafka",
+        "image": "assets/kafka.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#1a1919",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "TrueNAS",
+        "image": "assets/truenas.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0095d5",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Ceph",
+        "image": "assets/ceph.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#f05032",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Rancher",
+        "image": "assets/rancher.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0075a8",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Portainer",
+        "image": "assets/portainer.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0b9fe3",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "n8n",
+        "image": "assets/n8n.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#ff6d5a",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Mattermost",
+        "image": "assets/mattermost.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0058cc",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Nextcloud",
+        "image": "assets/nextcloud.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#0082c9",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Proxmox",
+        "image": "assets/proxmox.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#e57000",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "OpenMediaVault",
+        "image": "assets/openmediavault.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#3ab0e2",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Unraid",
+        "image": "assets/unraid.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#f15a2c",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Debian",
+        "image": "assets/debian.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#a81d33",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Ubuntu",
+        "image": "assets/ubuntu.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#e95420",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "Synology",
+        "image": "assets/synology.svg",
+        "image_mode": "fit",
+        "image_size": "80",
+        "back_color": "#212121",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "QNAP",
+        "image": "assets/qnap.svg",
+        "image_mode": "fit",
+        "image_size": "90",
+        "back_color": "#00a1e3",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    },
+    {
+        "name": "CentOS",
+        "image": "assets/centos.png",
+        "image_mode": "fit",
+        "image_size": "95",
+        "back_color": "#212078",
+        "front_color": "#ffffff",
+        "links": [
+            {
+                "url": "https://home",
+                "text": "HOME"
+            }
+        ],
+        "pages": [
+            "default"
+        ]
+    }
+]

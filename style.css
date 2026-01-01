@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    font-family: Sans-Serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.nav-links {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.nav-link {
+    color: #e0e0e0;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    background: linear-gradient(135deg, #4caf50, #45a049);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    /* Fill Mode: Auto-fit to collapse empty tracks and center content */
+    gap: 0;
+    width: 60%;
+    /* Reasonable max width */
+    max-width: 1400px;
+    margin: 50px auto 100px auto;
+    justify-content: center;
+}
+
+.grid-container>div {
+    width: 200px;
+    /* flex-shrink removed as grid handles sizing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1450px) {
+    .grid-container {
+        /* grid-template-columns: repeat(auto-fit, 200px); Invalid in flex but keeping intent */
+        width: 95%;
+        justify-content: center;
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    color: #666;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+    /* Slight shadow for separation */
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 150px;
+    perspective: 1000px;
+    /* margin: 0; implicit via grid gap 0 */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 0;
+}
+
+.flip-card-front {
+    background-color: #11161F;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-front img {
+    /* Base styles, overridden by inline styles for width/height */
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flip-card-front img.contain,
+.flip-card-front img.fit {
+    object-fit: contain;
+}
+
+.flip-card-front img.cover {
+    object-fit: cover;
+}
+
+.flip-card-front img.fill {
+    object-fit: fill;
+}
+
+.flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    flex-direction: column;
+}
+
+.element {
+    font-size: 18px;
+    /* Slightly adjusted for better fit */
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.tags-container {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-end;
+}
+
+.tag-badge {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    backdrop-filter: blur(2px);
+    white-space: nowrap;
+}
+
+.element a {
+    color: #fff;
+    display: block;
+    margin: 2px 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* Pagination Styles */
+.paginated-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    flex: 1 1 0%;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+}
+
+.paginated-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 2px 5px;
+    display: none;
+    /* Hidden by default */
+}
+
+/* Ensure original link styles are respected but overridden for visibility */
+.element a.paginated-link {
+    display: none;
+    font-size: 20px;
+    margin: 2px 0;
+}
+
+.paginated-link.visible {
+    display: block;
+}
+
+.link-nav {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 8px;
+    border-radius: 4px;
+    transition: background 0.2s;
+    /* Prevent shrinking */
+    flex-shrink: 0;
+}
+
+.link-nav:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.link-nav:disabled {
+    opacity: 0.3;
+    cursor: default;
+    background: rgba(255, 255, 255, 0.1);
+}
