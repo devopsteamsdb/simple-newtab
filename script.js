@@ -24,6 +24,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // Start immediately since data is loaded synchronously via script tag
     initDashboard();
 
+    // Key Navigation for Tabs
+    document.addEventListener('keydown', (e) => {
+        if (!dashboardData.pages || dashboardData.pages.length === 0) return;
+
+        // Find current index
+        const currentIndex = dashboardData.pages.findIndex(p => p.id === activePageId);
+
+        if (e.key === 'ArrowLeft') {
+            e.preventDefault(); // Prevent default scroll
+            // Previous tab (wrap around)
+            const newIndex = (currentIndex - 1 + dashboardData.pages.length) % dashboardData.pages.length;
+            activePageId = dashboardData.pages[newIndex].id;
+            renderNavigation();
+            renderCards();
+        } else if (e.key === 'ArrowRight') {
+            e.preventDefault(); // Prevent default scroll
+            // Next tab (wrap around)
+            const newIndex = (currentIndex + 1) % dashboardData.pages.length;
+            activePageId = dashboardData.pages[newIndex].id;
+            renderNavigation();
+            renderCards();
+        }
+    });
+
     // Render Navigation
     function renderNavigation() {
         navLinksContainer.innerHTML = '';
@@ -50,14 +74,68 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Calculate optimal columns for balanced grid layout
+    function getOptimalColumns(count) {
+        if (count <= 7) return count;
+
+        // For larger counts, find best column count for balanced rows
+        // Logic: prefer 4-6 columns, ensure last row has at least col-2 items
+        // Also ensure we don't exceed 4 rows
+
+        // First calculate min columns needed to fit in 4 rows
+        const minColsForRows = Math.ceil(count / 4);
+        const startCols = Math.max(4, minColsForRows);
+
+        // First check for perfect divisors (prefer smaller for more rows)
+        const preferredCols = [startCols, startCols + 1, startCols + 2, startCols + 3, startCols + 4];
+        for (const cols of preferredCols) {
+            if (count % cols === 0) return cols;
+        }
+
+        // For ugly numbers, find columns where last row is nearly full
+        // Last row should have at least (cols - 2) items
+        let bestCols = startCols;
+        let bestScore = -1;
+
+        // Search range: from minimum needed (for 4 rows) up to +3 more columns
+        // We only want to increase columns if it makes the grid "nicer" (less empty space)
+        for (let cols = startCols; cols <= startCols + 4; cols++) {
+            const remainder = count % cols;
+            if (remainder === 0) {
+                return cols; // Perfect fit
+            }
+            // Score: how close is remainder to cols (higher is better)
+            const score = remainder;
+            if (remainder >= cols - 2 && score > bestScore) {
+                bestScore = score;
+                bestCols = cols;
+            }
+        }
+
+        // If no "nice" layout found, just defaults to startCols or best found
+        return bestCols;
+    }
+
     function renderCards() {
         gridContainer.innerHTML = '';
 
         if (dashboardData.systems) {
-            dashboardData.systems.forEach(system => {
+            // Filter items first
+            const visibleSystems = dashboardData.systems.filter(system => {
                 // Filter by Page
-                if (system.pages && !system.pages.includes(activePageId)) return;
+                if (system.pages && !system.pages.includes(activePageId)) return false;
+                return true;
+            });
 
+            // Apply optimal columns
+            if (visibleSystems.length > 0) {
+                const cols = getOptimalColumns(visibleSystems.length);
+                gridContainer.style.gridTemplateColumns = `repeat(${cols}, 200px)`;
+            } else {
+                gridContainer.style.gridTemplateColumns = 'repeat(auto-fit, 200px)';
+            }
+
+            visibleSystems.forEach(system => {
                 const cardEl = document.createElement('div');
                 cardEl.className = 'flip-card';
 
